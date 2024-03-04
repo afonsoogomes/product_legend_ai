@@ -28,10 +28,12 @@ const fetchProduct = async () => {
   const $ = load(html)
   const title = $('h2:contains("Seção de informações do produto") ~ div > div:nth-child(1) > span').text()
   const details = $('h2:contains("Seção de informações do produto") ~ div').text()
+  const price = $('h2:contains("Price Section") ~ div > div:nth-child(2) > div:nth-child(1)').text()
 
   return {
     title,
-    details
+    details,
+    price
   }
 }
 
