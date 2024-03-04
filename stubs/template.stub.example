@@ -1,0 +1,3 @@
+Crie um arquivo template com o nome template.stub
+Digite nesse arquivo, o seu comando para o GPT
+Utilize variáveis, colocando da seguinte forma por exemplo Produto {{title}}
