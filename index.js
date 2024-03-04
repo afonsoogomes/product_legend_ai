@@ -70,6 +70,7 @@ const start = async () => {
   const product = await fetchProduct()
   const legend = await fecthLegend(product)
   await sendMessage(legend)
+  process.exit(0);
 }
 
 start()

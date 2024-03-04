@@ -1,3 +1,3 @@
-Crie um arquivo template com o nome template.stub
-Digite nesse arquivo, o seu comando para o GPT
-Utilize variáveis, colocando da seguinte forma por exemplo Produto {{title}}
+Crie um arquivo, com o nome legend.stub
+Digite nesse arquivo, o seu comando para o GPT criar a sua legenda
+Utilize variáveis, colocando da seguinte forma por exemplo Produto {{title}}, que automaticamente será substituído pelo valor
